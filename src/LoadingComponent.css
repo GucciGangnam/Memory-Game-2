@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Pokemon Solid Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pokemon Solid Normal'), url('src/assets/Fonts/pok-cufonfonts-webfont/Pokemon Solid.woff') format('woff');
+    }
+    
+
+.LoadingComponent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .LoadingScreenContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+        .LoadingText{
+            font-family: 'Pokemon Solid Normal';
+            text-align: center;
+            font-size: 6rem;
+            color: rgb(255, 199, 8);
+            text-stroke: 6px rgb(52, 81, 157);
+            /* fallback for browsers that don't support text-stroke */
+            -webkit-text-stroke: 6px rgb(52, 81, 157);
+            letter-spacing: 6px;
+        }
+        .PokeBallIMG{ 
+            width: 100px;
+            height: 100px;
+            animation: rotate 500ms linear infinite;
+        }
+
+/* Named KeyFrames */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

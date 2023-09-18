@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Pokemon Solid Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pokemon Solid Normal'), url('src/assets/Fonts/pok-cufonfonts-webfont/Pokemon Solid.woff') format('woff');
+}
+
+@font-face {
+    font-family: "press2p";
+    src: url(src/assets/Fonts/pok-cufonfonts-webfont/press2p.ttf);
+}
+
+
+
+.Rules {
+    height: 50%;
+    width: 50%;
+    border: 10px ridge white;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-family: 'Pokemon Solid Normal';
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(255, 199, 8);
+    text-stroke: 2px rgb(52, 81, 157);
+    /* fallback for browsers that don't support text-stroke */
+    -webkit-text-stroke: 2px rgb(52, 81, 157);
+    letter-spacing: 2px;
+
+}
+
+p{ 
+    font-family: 'press2p';
+    text-align: left;
+}
+ul{ 
+    margin-top: 0px;
+
+}
+li{ 
+    margin-bottom: 20px;
+}
+
+.StartButton{ 
+    font-family: 'press2p';
+    background-color: rgb(14, 173, 14);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.StartButton:hover{ 
+    transform: translateY(-1px);
+    background-color: rgb(9, 106, 9);
+}
