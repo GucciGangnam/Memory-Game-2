@@ -14,6 +14,7 @@ function App() {
   const [finalPokemon, setFinalPokemon] = useState([]);
   const [siteState, setSitestate] = useState('loading');
 
+
   useEffect(() => {
     if (finalPokemon.length === 20) { // Check if finalPokemon has reached a length of 20
       setTimeout(() => {
@@ -42,7 +43,8 @@ function App() {
 
           const data = await response.json();
           const imageURL = data.sprites.front_default;
-          pokemonDataArray.push({ imageURL });
+          const pokemonName = data.species.name;
+          pokemonDataArray.push({ imageURL, pokemonName });
         } catch (error) {
           console.error('Fetch error:', error);
         }

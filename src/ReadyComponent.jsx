@@ -11,7 +11,7 @@ import { Rules } from "./Rules";
 import { GameScreen } from "./GameScreen";
 
 // Component
-export const ReadyComponent = ({siteState,setSitestate, finalPokemon, setFinalPokemon }) => {
+export const ReadyComponent = ({siteState, setSitestate, finalPokemon, setFinalPokemon }) => {
     return (
         <div className="ReadyComponent">
             <Rules siteState={siteState} setSitestate={setSitestate} />

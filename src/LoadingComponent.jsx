@@ -8,7 +8,7 @@ export const LoadingComponent = () => {
         <div className="LoadingComponent">
             <div className="LoadingScreenContent">
                 <div className="LoadingText">
-                    Loading
+                    Loadin'emAll
                 </div>
                 <img className="PokeBallIMG" src="src/assets/Images/f8335abfc56c2a665ca700c0c24a68a5.png" alt="PokeBall" />
             </div>
