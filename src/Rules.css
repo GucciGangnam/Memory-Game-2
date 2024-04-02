@@ -2,12 +2,12 @@
     font-family: 'Pokemon Solid Normal';
     font-style: normal;
     font-weight: normal;
-    src: local('Pokemon Solid Normal'), url('src/assets/Fonts/pok-cufonfonts-webfont/Pokemon Solid.woff') format('woff');
+    src: local('Pokemon Solid Normal'), url('/pok-cufonfonts-webfont/Pokemon Solid.woff') format('woff');
 }
 
 @font-face {
     font-family: "press2p";
-    src: url(src/assets/Fonts/pok-cufonfonts-webfont/press2p.ttf);
+    src: url('/pok-cufonfonts-webfont/press2p.ttf');
 }
 
 

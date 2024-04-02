@@ -2,7 +2,7 @@
     font-family: 'Pokemon Solid Normal';
     font-style: normal;
     font-weight: normal;
-    src: local('Pokemon Solid Normal'), url('src/assets/Fonts/pok-cufonfonts-webfont/Pokemon Solid.woff') format('woff');
+    src: local('Pokemon Solid Normal'), url('/pok-cufonfonts-webfont/Pokemon Solid.woff') format('woff');
     }
     
 
