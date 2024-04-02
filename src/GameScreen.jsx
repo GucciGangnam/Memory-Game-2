@@ -25,7 +25,6 @@ export const GameScreen = ({ siteState, setSiteState, finalPokemon, setFinalPoke
     console.log(highScore)
     console.log(localStorage.highScore)
 
-   
 
     //winner screen 
     const displayWinnerScreen = () => { 

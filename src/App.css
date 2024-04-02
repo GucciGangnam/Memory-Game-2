@@ -9,7 +9,7 @@
 .BackGround{ 
   width: 100vw;
   height: 100vh;
-  background-image: url('/Users/alex/Documents/Programming/projects/memory-game-two/src/assets/Images/0d05201572964220c7c3b6ceab245bd8.gif');
+  background-image: url('src/assets/Images/0d05201572964220c7c3b6ceab245bd8.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
