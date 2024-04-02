@@ -10,7 +10,7 @@ export const LoadingComponent = () => {
                 <div className="LoadingText">
                     Loadin'emAll
                 </div>
-                <img className="PokeBallIMG" src="src/assets/Images/f8335abfc56c2a665ca700c0c24a68a5.png" alt="PokeBall" />
+                <img className="PokeBallIMG" src="/f8335abfc56c2a665ca700c0c24a68a5.png" alt="PokeBall" />
             </div>
         </div>
     )
